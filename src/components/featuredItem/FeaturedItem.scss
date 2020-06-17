@@ -1,14 +1,15 @@
 .featured_items_container {
   // padding: 2em;
-  background-color: palegreen;
+  // background-color: palegreen;
   // width: 100vw;
 }
 
 .featured_item {
+  position: relative;
   display: flex;
   align-items: center;
-  img {
-    // object-fit: fill;
+
+  img.food {
     width: 50%;
   }
 }
@@ -16,14 +17,25 @@
 .item_text {
   display: inline-block;
   width: 50%;
+  padding: 6.5em;
   // padding: 5em 1em 1em 3em;
 
   p {
-    // font-size: 1em;
-    // padding-top: 1em;
+    font-size: 1em;
+    padding-top: 1em;
   }
 
   h2 {
     font-size: 2em;
   }
+}
+.small_image_1 {
+  position: absolute;
+  top: 10%;
+  right: 60%;
+}
+.small_image_2 {
+  position: absolute;
+  bottom: 13%;
+  right: 90%;
 }
