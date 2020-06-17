@@ -1,11 +1,36 @@
 @import "../../App.scss";
 
 .header {
-  .header_background {
-    background: url(../../images/header_background.svg), no-repeat fixed center;
-    background-color: green;
-    width: 100vw;
-    height: 40vh;
-    // color: red;
+  color: #ffffff;
+
+  .header_container {
+    background: url(../../images/header_background.svg) no-repeat;
+    background-size: cover;
+    height: 998px;
+    position: relative;
+    padding: 2em;
+    text-align: left;
+
+    .header_text_wrapper {
+      position: absolute;
+      top: 40%;
+      left: 60%;
+      // padding: 1em;
+
+      .header_button {
+        width: 173px;
+        height: 38px;
+        font-size: 0.8em;
+        margin: 1em 0;
+        background-color: transparent;
+        color: white;
+        border: 2px solid #ffc700;
+        text-transform: uppercase;
+      }
+
+      h1.header_text {
+        font-size: 2.5em;
+      }
+    }
   }
 }
