@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../header/Header";
 import FeaturedItem from "../featuredItem/FeaturedItem";
+import SpecialOffer from "../specialOffer/SpecialOffer";
 
 const Main = (props) => {
   return (
@@ -42,6 +43,7 @@ const Main = (props) => {
           </p>
         </FeaturedItem>
       </main>
+      <SpecialOffer />
     </div>
   );
 };

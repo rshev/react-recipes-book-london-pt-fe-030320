@@ -1,0 +1,30 @@
+@import "../../App.scss";
+
+.special_offer {
+  position: relative;
+  height: 582px;
+  background: url(../../images/special_offer.jpg) no-repeat;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 20%;
+  }
+
+  .offer_text_btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    .offer_button {
+      @include button;
+    }
+
+    h3 {
+      color: $details-secondary-color;
+      font-size: 2em;
+    }
+  }
+}

@@ -1,11 +1,23 @@
 $details-main-color: #fff;
 $details-secondary-color: #ffc700;
 
+@mixin button {
+  width: 173px;
+  height: 38px;
+  font-size: 0.8em;
+  margin: 1em 0;
+  background-color: transparent;
+  color: $details-main-color;
+  border: 2px solid $details-secondary-color;
+  text-transform: uppercase;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
+
 li {
   list-style: none;
 }
