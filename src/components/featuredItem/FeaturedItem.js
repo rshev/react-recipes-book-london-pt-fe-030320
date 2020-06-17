@@ -1,0 +1,19 @@
+import React from "react";
+import "./FeaturedItem.scss";
+
+const FeaturedItem = (props) => {
+  return (
+    <div>
+      <div className="featured_item">
+        <div className="item_text">
+          {props.children}
+          <img src={props.small_image_1} alt="" />
+          <img src={props.small_image_2} alt="" />
+        </div>
+        <img src={props.image} alt="hero" />
+      </div>
+    </div>
+  );
+};
+
+export default FeaturedItem;
