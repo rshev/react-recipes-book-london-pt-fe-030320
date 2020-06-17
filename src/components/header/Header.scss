@@ -1,0 +1,11 @@
+@import "../../App.scss";
+
+.header {
+  .header_background {
+    background: url(../../images/header_background.svg), no-repeat fixed center;
+    background-color: green;
+    width: 100vw;
+    height: 40vh;
+    // color: red;
+  }
+}
