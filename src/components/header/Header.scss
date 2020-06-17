@@ -5,8 +5,8 @@
 
   .header_container {
     background: url(../../images/header_background.svg) no-repeat;
-    background-size: cover;
-    height: 998px;
+    // background-size: cover; for bigger screen
+    height: 698px;
     position: relative;
     padding: 2em;
     text-align: left;
@@ -14,8 +14,8 @@
     .header_text_wrapper {
       position: absolute;
       top: 40%;
-      left: 60%;
-      // padding: 1em;
+      left: 48%;
+      width: 40vw;
 
       .header_button {
         width: 173px;
