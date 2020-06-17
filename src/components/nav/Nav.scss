@@ -7,10 +7,11 @@
   position: absolute;
   top: 0;
   left: 55%;
-  color: #fff;
+  color: $details-main-color;
   width: 45vw;
   padding: 1em;
   margin: 1em 0;
   text-transform: uppercase;
   font-size: 1em;
+  z-index: 1;
 }
