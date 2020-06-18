@@ -29,7 +29,7 @@ const Footer = () => {
         <ul className="footer_social_media_list list">
           <h4>Follow us</h4>
           <li>
-            <img src="./social_media.svg" alt="" />
+            <img src="./images/social_media.svg" alt="" />
           </li>
         </ul>
       </div>

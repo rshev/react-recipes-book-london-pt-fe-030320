@@ -10,7 +10,7 @@ const SpecialOffer = () => {
           <button className="offer_button">Get started</button>
         </div>
       </div>
-      <img src="./offer.svg" alt="" />
+      <img src="./images/offer.svg" alt="" />
     </section>
   );
 };

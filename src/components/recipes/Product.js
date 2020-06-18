@@ -5,7 +5,7 @@ const Product = () => {
   return (
     <>
       <div className="card">
-        <img src="./burger_1.jpg" alt="" />
+        <img src="./images/burger_1.png" alt="" />
         <p className="item_description">
           Plant based burger with bacon, vegan smoked gouda
         </p>

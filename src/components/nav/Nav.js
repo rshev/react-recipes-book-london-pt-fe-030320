@@ -10,7 +10,7 @@ const Nav = () => {
       <li>gifts</li>
       <li>market</li>
       <li>
-        <img src="./cart.svg" alt="cart" />
+        <img src="./images/cart.svg" alt="cart" />
       </li>
     </ul>
   );
