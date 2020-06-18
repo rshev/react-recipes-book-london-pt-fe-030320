@@ -5,11 +5,17 @@ const Product = () => {
   return (
     <>
       <div className="card">
-        <img src="./images/burger_1.png" alt="" />
-        <p className="item_description">
-          Plant based burger with bacon, vegan smoked gouda
-        </p>
-        <span className="item_time">55 min</span>
+        <img className="hero" src="./images/burger_1.png" alt="" />
+        <div className="item_description">
+          <div className="item_text">
+            <p>Plant based burger with bacon, vegan smoked gouda</p>
+          </div>
+
+          <div className="item_time">
+            <img src="./images/clock.svg" alt="" />
+            <span>55 min</span>
+          </div>
+        </div>
       </div>
     </>
   );

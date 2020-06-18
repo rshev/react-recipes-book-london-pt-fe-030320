@@ -1,10 +1,27 @@
-.card {
-  background-color: palevioletred;
-  // height: 350px;
-  // padding: 1em;
-  margin: 1em;
+@import "../../App.scss";
 
-  img {
+.card {
+  background-color: white;
+  height: auto;
+  margin: 1em;
+  box-shadow: -7px 12px 43px -8px rgba(0, 0, 0, 0.31);
+
+  img.hero {
     width: 100%;
+  }
+
+  .item_description {
+    padding: 1.3em;
+    text-align: left;
+  }
+
+  .item_time {
+    padding: 1em 0;
+    display: flex;
+    color: $details-secondary-color;
+
+    span {
+      margin: 0 1em;
+    }
   }
 }

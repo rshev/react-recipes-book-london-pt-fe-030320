@@ -1,21 +1,40 @@
 @import "../../App.scss";
 
 .explore_menus {
-  background: url(../../images/carrot.svg) no-repeat top 0 right 15vw,
-    url(../../images/vegetables.svg) no-repeat top 15vh right 55vw,
-    url(../../images/groceries.svg) no-repeat top 25% right 85%,
-    url(../../images/juice.svg) no-repeat top 40% right 35%,
-    url(../../images/cheese.svg) no-repeat top 75% right 65%,
-    url(../../images/spaghetti.svg) no-repeat top 95% right 80%,
-    url(../../images/juice.svg) no-repeat top 95% right 10%;
+  background: url(../../images/carrot.svg) no-repeat top 13vh right 15vw,
+    url(../../images/vegetables.svg) no-repeat top 3vh right 55vw,
+    url(../../images/groceries.svg) no-repeat top 12vh right 95%,
+    url(../../images/juice.svg) no-repeat top 50vh right 30vw,
+    url(../../images/cheese.svg) no-repeat top 88vh right 61vw,
+    url(../../images/spaghetti.svg) no-repeat bottom 2vh left 20vw,
+    url(../../images/juice.svg) no-repeat bottom 2vh right 10vw;
   text-align: center;
-  // height: 1300px;
+  padding: 2em;
 
   .explore_wrapper {
     .explore_header {
-      padding: 2em;
-      margin: 2em;
+      text-align: center;
+      width: 30vw;
+      margin: 3em auto 2em auto;
+
+      p {
+        line-height: 1.5em;
+        // margin: 1em;
+        padding: 1em;
+      }
     }
+  }
+
+  .explore_menus_button {
+    width: 173px;
+    height: 38px;
+    background-color: $details-secondary-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 2px solid $details-secondary-color;
+    font-size: 0.9em;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 3em;
   }
 }
 
@@ -23,5 +42,5 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2em;
-  background-color: paleturquoise;
+  // background-color: paleturquoise;
 }

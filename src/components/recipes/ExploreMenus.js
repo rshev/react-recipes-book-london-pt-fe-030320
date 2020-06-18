@@ -7,10 +7,10 @@ const ExploreMenus = () => {
     <main className="explore_menus">
       <div className="explore_wrapper">
         <div className="explore_header">
-          <h2>Explore our Menus</h2>
+          <h1>Explore our Menus</h1>
           <p>
             Choose from an ever-changing mix of meat, fish, Beyond Meat, WW
-            Approved
+            Approved from an ever-changing mix of meat, fish
           </p>
         </div>
         <div className="explore_grid_container">
@@ -25,7 +25,7 @@ const ExploreMenus = () => {
           <Product />
         </div>
       </div>
-      <button>See more</button>
+      <button className="explore_menus_button">See more</button>
     </main>
   );
 };
