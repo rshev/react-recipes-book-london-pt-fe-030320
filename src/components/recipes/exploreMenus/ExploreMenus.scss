@@ -1,13 +1,13 @@
-@import "../../App.scss";
+@import "../../../App.scss";
 
 .explore_menus {
-  background: url(../../images/carrot.svg) no-repeat top 13vh right 15vw,
-    url(../../images/vegetables.svg) no-repeat top 3vh right 55vw,
-    url(../../images/groceries.svg) no-repeat top 12vh right 95%,
-    url(../../images/juice.svg) no-repeat top 50vh right 30vw,
-    url(../../images/cheese.svg) no-repeat top 88vh right 61vw,
-    url(../../images/spaghetti.svg) no-repeat bottom 2vh left 20vw,
-    url(../../images/juice.svg) no-repeat bottom 2vh right 10vw;
+  background: url(../../../images/carrot.svg) no-repeat top 13vh right 15vw,
+    url(../../../images/vegetables.svg) no-repeat top 3vh right 55vw,
+    url(../../../images/groceries.svg) no-repeat top 12vh right 95%,
+    url(../../../images/juice.svg) no-repeat top 50vh right 30vw,
+    url(../../../images/cheese.svg) no-repeat top 88vh right 61vw,
+    url(../../../images/spaghetti.svg) no-repeat bottom 2vh left 20vw,
+    url(../../../images/juice.svg) no-repeat bottom 2vh right 10vw;
   text-align: center;
   padding: 2em;
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "./ExploreMenus.scss";
-import Product from "./Product";
+import Product from "../product/Product";
 
 const ExploreMenus = () => {
   return (
