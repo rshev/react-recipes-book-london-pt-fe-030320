@@ -1,0 +1,27 @@
+@import "../../App.scss";
+
+.explore_menus {
+  background: url(../../images/carrot.svg) no-repeat top 0 right 15vw,
+    url(../../images/vegetables.svg) no-repeat top 15vh right 55vw,
+    url(../../images/groceries.svg) no-repeat top 25% right 85%,
+    url(../../images/juice.svg) no-repeat top 40% right 35%,
+    url(../../images/cheese.svg) no-repeat top 75% right 65%,
+    url(../../images/spaghetti.svg) no-repeat top 95% right 80%,
+    url(../../images/juice.svg) no-repeat top 95% right 10%;
+  text-align: center;
+  // height: 1300px;
+
+  .explore_wrapper {
+    .explore_header {
+      padding: 2em;
+      margin: 2em;
+    }
+  }
+}
+
+.explore_grid_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+  background-color: paleturquoise;
+}
