@@ -1,0 +1,33 @@
+.ingredients {
+  position: relative;
+  background: url(../../../images/cheese.svg) no-repeat top 50px left 1090px,
+    url(../../../images/vegetables.svg) no-repeat top 350px left 900px,
+    url(../../../images/groceries.svg) no-repeat top 690px left 950px,
+    url(../../../images/carrot.svg) no-repeat bottom 50px left 550px,
+    url(../../../images/ing_background.jpg) no-repeat;
+  height: 843px;
+
+  .ingredients_content {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    width: 40%;
+    background-color: rgb(25, 51, 18);
+  }
+
+  .ingredients_header,
+  .grid_container {
+    margin-left: 4em;
+  }
+  .separator {
+    border-bottom: 1px solid grey;
+    margin: 1em 1em 1em 0;
+  }
+
+  .grid_container {
+    display: grid;
+    grid-template-columns: 5em 1fr;
+    gap: 1.3em;
+    color: white;
+  }
+}
