@@ -14,12 +14,12 @@ const Basket = () => {
         <BasketItem />
       </div>
       <div className="separator"></div>
-      <div className="delivery_fee">
+      <div className="delivery_fee basket_flex">
         <p>Delivery fee</p>
         <p>£4</p>
       </div>
       <div className="separator"></div>
-      <div className="total">
+      <div className="total basket_flex">
         <p>Total</p>
         <p>£ 15</p>
       </div>
