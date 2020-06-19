@@ -7,7 +7,7 @@ import SpecialOffer from "../specialOffer/SpecialOffer";
 import TinyHeader from "./tinyHeader/TinyHeader";
 
 const Recipes = () => {
-  const [product, setProduct] = useState({});
+  const [product, setProduct] = useState(undefined);
 
   return (
     <>
@@ -20,7 +20,7 @@ const Recipes = () => {
         </>
       ) : (
         <>
-          <Header />
+          <Header scroll />
           <ExploreMenus />
         </>
       )}

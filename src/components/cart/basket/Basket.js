@@ -11,7 +11,8 @@ const Basket = () => {
       <div className="separator"></div>
       <div className="basket_items_container">
         <BasketItem />
-        {/* <BasketItem /> */}
+        <BasketItem />
+        <BasketItem />
       </div>
       <div className="separator"></div>
       <div className="delivery_fee basket_flex">

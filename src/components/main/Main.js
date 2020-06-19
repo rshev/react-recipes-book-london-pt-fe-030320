@@ -6,7 +6,7 @@ import SpecialOffer from "../specialOffer/SpecialOffer";
 const Main = (props) => {
   return (
     <div className="main_page">
-      <Header />
+      <Header scroll={false} />
       <main className="featured_items_container">
         <FeaturedItem
           small_image_1="./images/spaghetti.svg"

@@ -4,7 +4,7 @@ import Product from "../product/Product";
 
 const ExploreMenus = () => {
   return (
-    <main className="explore_menus">
+    <main className="explore_menus" id="list">
       <div className="explore_wrapper">
         <div className="explore_header">
           <h1>Explore our Menus</h1>
