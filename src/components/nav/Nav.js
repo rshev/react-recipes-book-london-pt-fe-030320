@@ -9,9 +9,10 @@ const Nav = () => {
       <li>wine</li>
       <li>gifts</li>
       <li>market</li>
-      <li>
-        <img src="./images/cart.svg" alt="cart" />
+      <li className="basket_wrapper">
+        <img className="basket" src="./images/cart.svg" alt="cart" />
       </li>
+      <li className="basket_quantity">1</li>
     </ul>
   );
 };
