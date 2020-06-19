@@ -1,0 +1,140 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "category": "bacon plant",
+      "title": "plant based",
+      "preparationTime": 55,
+      "servings": 2,
+      "calories": 820,
+      "description": "plant-based burger with vegan smoked gouda, vegan bacon, spinach, pickles, fresh tomatoes and rosemary salted chips",
+      "url": "./images/",
+      "ingredients": [
+        {
+          "title": "Ground vegan beef",
+          "amount": "200 gr"
+        },
+        {
+          "title": "Potato buns",
+          "amount": "4"
+        },
+        {
+          "title": "Broccoli",
+          "amount": "70 gr"
+        },
+        {
+          "title": "Garlic",
+          "amount": "1 clove"
+        },
+        {
+          "title": "Onions",
+          "amount": "30 gr"
+        },
+        {
+          "title": "Mayonnaise",
+          "amount": "2 tbsp"
+        },
+        {
+          "title": "Black & White Sesame Seeds",
+          "amount": "10 gr"
+        },
+        {
+          "title": "Hoisin Sauce",
+          "amount": "2 tbsp"
+        },
+        {
+          "title": "Baby Bok Choy",
+          "amount": "20 gr"
+        },
+        {
+          "title": "Tomatoes",
+          "amount": "30 gr"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "beef plant",
+      "title": "plant-based",
+      "preparationTime": 50,
+      "servings": 2,
+      "calories": 870,
+      "description": "plant-based burger with vegan blue Stilton, vegan bacon, rocket salad, pickles, sundried tomatoes and sweet potato chips",
+      "url": "./images/",
+      "ingredients": [
+        {
+          "title": "Ground beef",
+          "amount": "300 gr"
+        },
+        {
+          "title": "Blue Stilton",
+          "amount": "40 gr"
+        },
+        {
+          "title": "Vegan Bacon",
+          "amount": "50 gr"
+        },
+        {
+          "title": "Rocket Salad",
+          "amount": "10 gr"
+        },
+        {
+          "title": "Pickles",
+          "amount": "20 gr"
+        },
+        {
+          "title": "Sundried Tomatoes",
+          "amount": "20 gr"
+        },
+        {
+          "title": "Chipotle Sauce",
+          "amount": "15 gr"
+        },
+        {
+          "title": "Homemade buns",
+          "amount": "4"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "sweet potato burger",
+      "title": "plant-based",
+      "preparationTime": 45,
+      "servings": 2,
+      "calories": 790,
+      "description": "plant-based burger with vegan mozzarella, spicy sauce, spinach, fresh cucumber, fresh tomatoes and rosemary salted chips",
+      "url": "./images/",
+      "ingredients": [
+        {
+          "title": "Ground Beef",
+          "amount": "250 gr"
+        },
+        {
+          "title": "Cucumber",
+          "amount": "35 gr"
+        },
+        {
+          "title": "Mayonnaise",
+          "amount": "2tbsp"
+        },
+        {
+          "title": "Fresh Tomatoes",
+          "amount": "35 gr"
+        },
+        {
+          "title": "Onions",
+          "amount": "15 gr"
+        },
+        {
+          "title": "Mozzarella",
+          "amount": "65 gr"
+        },
+        {
+          "title": "Buns",
+          "amount": "4"
+        }
+      ]
+    }
+  ]
+}

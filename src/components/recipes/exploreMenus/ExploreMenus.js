@@ -1,6 +1,7 @@
 import React from "react";
 import "./ExploreMenus.scss";
 import Product from "../product/Product";
+import { Link } from "react-router-dom";
 
 const ExploreMenus = () => {
   return (
