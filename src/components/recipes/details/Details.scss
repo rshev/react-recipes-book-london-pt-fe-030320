@@ -1,0 +1,9 @@
+.item_info {
+  .item_info_1::before {
+    content: url();
+  }
+
+  .item_info_2::before {
+    content: url();
+  }
+}

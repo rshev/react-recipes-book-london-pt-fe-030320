@@ -26,8 +26,8 @@
 
   .grid_container {
     display: grid;
-    grid-template-columns: 5em 1fr;
-    gap: 1.3em;
+    grid-template-columns: 6em 1fr;
+    gap: 1.3em 0.25em;
     color: white;
   }
 }

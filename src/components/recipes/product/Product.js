@@ -12,7 +12,6 @@ const Product = () => {
           </div>
 
           <div className="item_time">
-            <img src="./images/clock.svg" alt="" />
             <span>55 min</span>
           </div>
         </div>

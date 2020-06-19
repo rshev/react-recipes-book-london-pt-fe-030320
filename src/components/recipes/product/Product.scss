@@ -14,14 +14,18 @@
     padding: 1.3em;
     text-align: left;
   }
+}
 
-  .item_time {
-    padding: 1em 0;
-    display: flex;
-    color: $details-secondary-color;
+.item_time {
+  padding: 1em 0;
+  display: flex;
+  color: $details-secondary-color;
 
-    span {
-      margin: 0 1em;
-    }
+  span {
+    margin: 0 1em;
   }
+}
+
+.item_time::before {
+  content: url(../../../images/clock.svg);
 }
