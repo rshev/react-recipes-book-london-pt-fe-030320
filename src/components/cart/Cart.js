@@ -12,30 +12,66 @@ const Cart = () => {
           <div className="container">
             <form action="#" className="cart_form">
               <h5 className="form_header">your details</h5>
-              <label for="title">Title:</label>
-              <select name="title" id="titles">
+              <select name="title" id="title">
                 <option value="mr">Mr</option>
                 <option value="mrs">Mrs</option>
                 <option value="ms">Ms</option>
                 <option value="miss">Miss</option>
               </select>
+              <br />
 
-              <input type="text" placeholder="First name*" required />
-              <input type="text" placeholder="Last name*" required />
-              <input type="email" required />
-              <input type="password" required />
+              <input
+                type="text"
+                placeholder="First name*"
+                className="narrow"
+                required
+              />
+              <input
+                type="text"
+                placeholder="Last name*"
+                className="narrow"
+                required
+              />
+              <br />
+              <input
+                type="email"
+                placeholder="Email address*"
+                className="wide"
+                required
+              />
+              <br />
+              <input
+                type="password"
+                placeholder="Password*"
+                className="wide"
+                required
+              />
+              <br />
               <label htmlFor="">contact number*</label>
+              <br />
               <input
                 type="tel"
                 id="phone"
                 name="phone"
                 placeholder="44-7719-465-344"
                 pattern="[0-9]{2}-[0-9]{4}-[0-9]{3}-[0-9]{3}"
+                className="wide"
                 required
               ></input>
-              <label htmlFor="">delivery address</label>
-              <input type="text" name="address" id="address" required />
-              <input type="submit" value="submit" />
+              <br />
+              <label htmlFor="">delivery address*</label>
+              <br />
+              <input
+                type="text"
+                name="address"
+                id="address"
+                placeholder="Postcode*"
+                className="wide"
+                required
+              />
+              <br />
+
+              <input type="submit" value="submit" className="yellow_button" />
             </form>
 
             <Basket />
