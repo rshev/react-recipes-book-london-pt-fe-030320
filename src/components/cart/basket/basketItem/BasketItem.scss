@@ -33,18 +33,6 @@
 .basket_item_info {
   position: relative;
   padding: 1.3rem;
-
-  .remove_btn {
-    position: absolute;
-    top: 0;
-    left: 70%;
-    width: 4rem;
-    height: 1.3rem;
-    background-color: $details-secondary-color;
-    color: $details-main-color;
-    font-weight: 600;
-    border: none;
-  }
 }
 
 .serving_info {
@@ -54,5 +42,18 @@
 
   p {
     margin-right: 1rem;
+  }
+}
+
+.remove {
+  text-align: right;
+
+  .remove_btn {
+    width: 4rem;
+    height: 1.3rem;
+    background-color: $details-secondary-color;
+    color: $details-main-color;
+    font-weight: 600;
+    border: none;
   }
 }
