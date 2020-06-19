@@ -6,6 +6,7 @@ import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
 import Recipes from "./components/recipes/Recipes";
 import Cart from "./components/cart/Cart";
+import ThankYou from "./components/thankYouPage/Thankyou";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" component={Main} exact />
         <Route path="/recipes" component={Recipes} />
         <Route path="/cart" component={Cart} />
+        <Route path="/thankyou" component={ThankYou} />
       </Switch>
       <Footer />
     </div>
