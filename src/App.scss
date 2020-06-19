@@ -12,6 +12,24 @@ $details-secondary-color: #ffc700;
   text-transform: uppercase;
 }
 
+@mixin yellow_btn {
+  width: 173px;
+  height: 38px;
+  background-color: $details-secondary-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 2px solid $details-secondary-color;
+  font-size: 0.9em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+@mixin title {
+  color: $details-main-color;
+  background-color: $details-secondary-color;
+  padding: 0.5rem;
+  display: inline-block;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
