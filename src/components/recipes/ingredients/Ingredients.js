@@ -6,8 +6,8 @@ const Ingredients = () => {
     <div className="ingredients">
       <div className="ingredients_content">
         <div className="ingredients_header">
-          <p>fresh</p>
-          <p>ingredients</p>
+          <h5>fresh</h5>
+          <h5 className="ing_title">ingredients</h5>
         </div>
         <div className="separator"></div>
         <div className="grid_container">
