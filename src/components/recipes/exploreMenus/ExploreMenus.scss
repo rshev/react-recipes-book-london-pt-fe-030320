@@ -11,6 +11,11 @@
   text-align: center;
   padding: 2em;
 
+  .yellow_button {
+    @include yellow_btn;
+    margin: 3em;
+  }
+
   .explore_wrapper {
     .explore_header {
       text-align: center;
@@ -23,18 +28,6 @@
         padding: 1em;
       }
     }
-  }
-
-  .explore_menus_button {
-    width: 173px;
-    height: 38px;
-    background-color: $details-secondary-color;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: 2px solid $details-secondary-color;
-    font-size: 0.9em;
-    font-weight: 800;
-    text-transform: uppercase;
-    margin: 3em;
   }
 }
 

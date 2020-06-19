@@ -25,7 +25,7 @@ const ExploreMenus = () => {
           <Product />
         </div>
       </div>
-      <button className="explore_menus_button">See more</button>
+      <button className="yellow_button">See more</button>
     </main>
   );
 };
