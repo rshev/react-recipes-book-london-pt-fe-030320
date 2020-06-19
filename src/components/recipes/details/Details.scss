@@ -1,9 +1,43 @@
-.item_info {
-  .item_info_1::before {
-    content: url();
+@import "../../../App.scss";
+
+.recipes_ingredients {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 2rem 0 2rem 2rem;
+
+  .recipe_pic > img {
+    width: 100%;
   }
 
-  .item_info_2::before {
-    content: url();
+  .recipe_details_wrapper {
+    padding: 4rem 3rem 2rem 1rem;
+
+    .yellow_button {
+      @include yellow_btn;
+    }
+
+    .recipe_title {
+      @include title;
+    }
+
+    .item_description {
+      padding: 2rem 0;
+      line-height: 1.5rem;
+      font-size: 0.9rem;
+    }
+  }
+
+  .item_info {
+    span {
+      margin-right: 2rem;
+    }
+
+    .servings::before {
+      content: url(../../../images/utensils.svg);
+    }
+
+    .calories::before {
+      content: url(../../../images/fruit.svg);
+    }
   }
 }
