@@ -1,14 +1,12 @@
 @import "../../App.scss";
 
 .thanks_img {
-  margin: 4rem 0;
+  margin: 6em auto;
   width: 100%;
 }
 
 .thanks_wrapper {
   position: relative;
-  // width: 100%;
-  // height: 100%;
 
   h1 {
     color: $details_main_color;
