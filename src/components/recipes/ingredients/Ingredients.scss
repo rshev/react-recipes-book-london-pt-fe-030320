@@ -22,11 +22,6 @@
     margin-left: 4em;
   }
 
-  .separator {
-    border-bottom: 1px solid grey;
-    margin: 1em 1em 1em 0;
-  }
-
   .grid_container {
     display: grid;
     grid-template-columns: 6em 1fr;
@@ -36,4 +31,8 @@
 .ing_title {
   @include title;
   margin: 0.5rem 0;
+}
+.separator {
+  border-bottom: 1px solid grey;
+  margin: 1em 1em 1em 0;
 }

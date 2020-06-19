@@ -37,8 +37,9 @@ const Cart = () => {
               <input type="text" name="address" id="address" required />
               <input type="submit" value="submit" />
             </form>
+
+            <Basket />
           </div>
-          <Basket />
         </div>
       </div>
     </>

@@ -1,11 +1,19 @@
 .cart {
-  min-height: 1000px;
+  // min-height: 1000px;
+  padding: 3rem 0 3rem 3rem;
 }
+
 .fancy_background {
   background: url(../../images/carrot.svg) no-repeat top 0 left 98%,
     url(../../images/cheese.svg) no-repeat top 3% left 38%,
     url(../../images/spaghetti.svg) no-repeat top 50% left 38%,
     url(../../images/vegetables.svg) no-repeat top 88% left 98%,
-    url(../../images/juice.svg) no-repeat top 95% left 18%;
+    url(../../images/juice.svg) no-repeat top 95% left 18%,
+    url(../../images/cheese.svg) no-repeat top 55% left 18%;
   min-height: 1000px;
+
+  .container {
+    display: grid;
+    grid-template-columns: 35% 65%;
+  }
 }

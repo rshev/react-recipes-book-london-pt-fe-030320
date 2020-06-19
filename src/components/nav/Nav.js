@@ -10,7 +10,7 @@ const Nav = () => {
       <li>gifts</li>
       <li>market</li>
       <li className="basket_wrapper">
-        <img className="basket" src="./images/cart.svg" alt="cart" />
+        <img className="basket_icon" src="./images/cart.svg" alt="cart" />
       </li>
       <li className="basket_quantity">1</li>
     </ul>

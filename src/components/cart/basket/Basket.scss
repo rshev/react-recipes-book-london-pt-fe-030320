@@ -1,0 +1,26 @@
+@import "../../../App.scss";
+
+.basket {
+  background-color: black;
+  color: white;
+  padding: 1.5rem;
+
+  .basket_header {
+    h5 {
+      @include title;
+      margin-left: 2rem;
+      padding: 0.3rem 1rem;
+    }
+  }
+
+  .basket_header::before {
+    content: url(../../../images/cart.svg);
+  }
+
+  .basket_items_container {
+    // display: grid;
+    // grid-template-rows: 50% auto;
+    // gap: 1rem;
+    // padding: 2rem;
+  }
+}

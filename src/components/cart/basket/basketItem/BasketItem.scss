@@ -1,0 +1,19 @@
+.basket_item {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1rem;
+  margin: 2rem 0;
+
+  img {
+    width: 100%;
+  }
+}
+.basket_item_info {
+  padding: 1.3rem;
+}
+.serving_info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-top: -1.5rem;
+}
