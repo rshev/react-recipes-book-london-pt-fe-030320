@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./ThankYou.scss";
 import TinyHeader from "../recipes/tinyHeader/TinyHeader";
+import { useDispatch } from "react-redux";
+import { thankYouWasShown } from "../../logic/store";
 
 const ThankYou = () => {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(thankYouWasShown());
+  }, [dispatch]);
   return (
     <>
       <TinyHeader />
