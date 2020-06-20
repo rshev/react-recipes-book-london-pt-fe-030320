@@ -30,4 +30,10 @@ const postOrder = async (body) => {
   return response;
 };
 
-export default { getRecipes, postOrder, postCustomer };
+const getCustomers = async () => {
+  const response = await fetch(`${API}/customers`);
+  const json = await response.json();
+  return json;
+};
+
+export default { getRecipes, postOrder, postCustomer, getCustomers };

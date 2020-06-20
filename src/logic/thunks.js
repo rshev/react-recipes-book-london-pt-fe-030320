@@ -8,7 +8,12 @@ export const submitCart = (customer) => {
       customer: customer,
     };
     await API.postOrder(order);
-    await API.postCustomer(customer);
+
+    const allCustomers = await API.getCustomers();
+    if (allCustomers.findIndex((el) => el.email === customer.email) === -1) {
+      await API.postCustomer(customer);
+    }
+
     dispatch(showThankYou());
   };
 };
