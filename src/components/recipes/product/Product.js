@@ -1,18 +1,20 @@
 import React from "react";
 import "./Product.scss";
+import { useDispatch } from "react-redux";
+import { selectRecipe } from "../../../logic/store";
 
-const Product = () => {
+const Product = ({ product }) => {
   return (
     <>
       <div className="card">
-        <img className="hero" src="./images/burger_1.png" alt="" />
+        <img className="hero" src={product.url} alt="" />
         <div className="item_description">
           <div className="item_text">
-            <p>Plant based burger with bacon, vegan smoked gouda</p>
+            <p>{product.title}</p>
           </div>
 
           <div className="item_time">
-            <span>55 min</span>
+            <span>{product.preparationTime} min</span>
           </div>
         </div>
       </div>

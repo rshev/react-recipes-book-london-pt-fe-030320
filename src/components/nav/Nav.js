@@ -1,8 +1,11 @@
 import React from "react";
 import "./Nav.scss";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const Nav = () => {
+  const basketQuantity = useSelector((state) => state.basketQuantity);
+
   return (
     <ul className="nav_menu">
       <li>
@@ -17,7 +20,9 @@ const Nav = () => {
       <li className="basket_wrapper">
         <img className="basket_icon" src="./images/cart.svg" alt="cart" />
       </li>
-      <li className="basket_quantity">1</li>
+      {basketQuantity > 0 ? (
+        <li className="basket_quantity">{basketQuantity}</li>
+      ) : null}
     </ul>
   );
 };
