@@ -3,7 +3,7 @@
     {
       "id": 1,
       "category": "bacon plant",
-      "title": "plant based",
+      "title": "plant based yummy stuff",
       "preparationTime": 55,
       "servings": 2,
       "calories": 820,
@@ -55,7 +55,7 @@
     {
       "id": 2,
       "category": "beef plant",
-      "title": "plant-based",
+      "title": "yummy yummy plant-based ",
       "preparationTime": 50,
       "servings": 2,
       "calories": 870,
@@ -99,7 +99,7 @@
     {
       "id": 3,
       "category": "sweet potato burger",
-      "title": "plant-based",
+      "title": "plant-based sweet potato burger",
       "preparationTime": 45,
       "servings": 2,
       "calories": 790,

@@ -1,11 +1,15 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import "./ExploreMenus.scss";
 import Product from "../product/Product";
-import { Link } from "react-router-dom";
-import { useSelector, useDispatch } from "react-redux";
-import { getRecipes } from "../../../logic/thunks";
+import { useSelector } from "react-redux";
 
 const ExploreMenus = () => {
+  const [numberOfItems, setNumberOfItems] = useState(6);
+
+  const handleClick = () => {
+    setNumberOfItems(numberOfItems + 3);
+  };
+
   const recipes = useSelector((store) => store.recipes);
 
   return (
@@ -19,12 +23,14 @@ const ExploreMenus = () => {
           </p>
         </div>
         <div className="explore_grid_container">
-          {recipes.map((el) => (
+          {recipes.slice(0, numberOfItems).map((el) => (
             <Product product={el} />
           ))}
         </div>
       </div>
-      <button className="yellow_button">See more</button>
+      <button onClick={handleClick} className="yellow_button">
+        See more
+      </button>
     </main>
   );
 };
