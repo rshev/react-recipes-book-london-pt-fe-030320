@@ -8,7 +8,7 @@
       "servings": 2,
       "calories": 820,
       "description": "plant-based burger with vegan smoked gouda, vegan bacon, spinach, pickles, fresh tomatoes and rosemary salted chips",
-      "url": "./images/",
+      "url": "./images/burger_1.png",
       "ingredients": [
         {
           "title": "Ground vegan beef",
@@ -60,7 +60,7 @@
       "servings": 2,
       "calories": 870,
       "description": "plant-based burger with vegan blue Stilton, vegan bacon, rocket salad, pickles, sundried tomatoes and sweet potato chips",
-      "url": "./images/",
+      "url": "./images/burger_2.png",
       "ingredients": [
         {
           "title": "Ground beef",
@@ -104,7 +104,7 @@
       "servings": 2,
       "calories": 790,
       "description": "plant-based burger with vegan mozzarella, spicy sauce, spinach, fresh cucumber, fresh tomatoes and rosemary salted chips",
-      "url": "./images/",
+      "url": "./images/burger_3.png",
       "ingredients": [
         {
           "title": "Ground Beef",
@@ -133,6 +133,138 @@
         {
           "title": "Buns",
           "amount": "4"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "black bean burger",
+      "title": "plant-based",
+      "preparationTime": 45,
+      "servings": 2,
+      "calories": 790,
+      "description": "fresh burger with vegan mozzarella, spicy sauce, spinach, fresh cucumber, fresh tomatoes and rosemary salted chips",
+      "url": "./images/burger_4.png",
+      "ingredients": [
+        {
+          "title": "Soya patty",
+          "amount": "2"
+        },
+        {
+          "title": "Lettuce",
+          "amount": "25 gr"
+        },
+        {
+          "title": "Mayonnaise",
+          "amount": "2tbsp"
+        },
+        {
+          "title": "Fresh Tomatoes",
+          "amount": "35 gr"
+        },
+        {
+          "title": "Onions",
+          "amount": "15 gr"
+        },
+        {
+          "title": "Mozzarella",
+          "amount": "65 gr"
+        },
+        {
+          "title": "Buns",
+          "amount": "4"
+        },
+        {
+          "title": "Garlic",
+          "amount": "1 Clove"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "plant based burger",
+      "title": "plant-based",
+      "preparationTime": 45,
+      "servings": 2,
+      "calories": 790,
+      "description": "fresh burger with vegan mozzarella, spicy sauce, spinach, fresh cucumber, fresh tomatoes and rosemary salted chips",
+      "url": "./images/burger_5.png",
+      "ingredients": [
+        {
+          "title": "Soya patty",
+          "amount": "2"
+        },
+        {
+          "title": "Lettuce",
+          "amount": "25 gr"
+        },
+        {
+          "title": "Mayonnaise",
+          "amount": "2tbsp"
+        },
+        {
+          "title": "Fresh Tomatoes",
+          "amount": "35 gr"
+        },
+        {
+          "title": "Onions",
+          "amount": "15 gr"
+        },
+        {
+          "title": "Mozzarella",
+          "amount": "65 gr"
+        },
+        {
+          "title": "Buns",
+          "amount": "4"
+        },
+        {
+          "title": "Garlic",
+          "amount": "1 Clove"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "soya burger",
+      "title": "plant-based",
+      "preparationTime": 45,
+      "servings": 2,
+      "calories": 790,
+      "description": "fresh burger with vegan mozzarella, spicy sauce, spinach, fresh cucumber, fresh tomatoes and rosemary salted chips",
+      "url": "./images/burger_6.png",
+      "ingredients": [
+        {
+          "title": "Soya patty",
+          "amount": "2"
+        },
+        {
+          "title": "Lettuce",
+          "amount": "25 gr"
+        },
+        {
+          "title": "Mayonnaise",
+          "amount": "2tbsp"
+        },
+        {
+          "title": "Fresh Tomatoes",
+          "amount": "35 gr"
+        },
+        {
+          "title": "Onions",
+          "amount": "15 gr"
+        },
+        {
+          "title": "Mozzarella",
+          "amount": "65 gr"
+        },
+        {
+          "title": "Buns",
+          "amount": "4"
+        },
+        {
+          "title": "Garlic",
+          "amount": "1 Clove"
         }
       ]
     }

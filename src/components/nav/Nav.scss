@@ -15,7 +15,15 @@
   text-transform: uppercase;
   font-size: 1em;
   z-index: 1;
+
+  a {
+    color: white;
+  }
 }
+
+// a:hover {
+//   color: yellow;
+// }
 
 .basket_quantity {
   display: inline-block;
