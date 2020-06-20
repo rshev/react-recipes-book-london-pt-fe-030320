@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./BasketItem.scss";
 import { useDispatch } from "react-redux";
-import { removeFromCart } from "../../../../logic/store";
+import { removeFromCart, changeQuantity } from "../../../../logic/store";
 
 const BasketItem = ({ product }) => {
   const dispatch = useDispatch();
+  const quantityRef = useRef();
 
   const handleRemove = () => {
     dispatch(removeFromCart(product));
+  };
+
+  const handleUpdate = () => {
+    dispatch(changeQuantity(product, quantityRef.current.value));
   };
 
   return (
@@ -31,8 +36,16 @@ const BasketItem = ({ product }) => {
           </div>
           <p className="basket_item_description">{product?.description}</p>
           <div className="quantity">
-            <input type="number" min="1" max="20" />
-            <button className="update_btn">update</button>
+            <input
+              type="number"
+              min="1"
+              max="20"
+              defaultValue={product?.quantity}
+              ref={quantityRef}
+            />
+            <button onClick={handleUpdate} className="update_btn">
+              update
+            </button>
             <span className="price">£15</span>
           </div>
         </div>

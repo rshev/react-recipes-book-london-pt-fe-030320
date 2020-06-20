@@ -6,12 +6,28 @@ const getRecipes = async () => {
   return json;
 };
 
-const postBasket = async (body) => {
-  const response = await fetch(`${API}/basket`, {
+const postCustomer = async (body) => {
+  const response = await fetch(`${API}/customers`, {
     method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
     body: JSON.stringify(body),
   });
   return response;
 };
 
-export default { getRecipes, postBasket };
+const postOrder = async (body) => {
+  const response = await fetch(`${API}/orders`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
+    body: JSON.stringify(body),
+  });
+  return response;
+};
+
+export default { getRecipes, postOrder, postCustomer };

@@ -35,7 +35,7 @@ export const changeQuantity = (recipe, quantity) => {
   return {
     type: ActionType.ChangeQuantity,
     recipe,
-    quantity,
+    quantity: parseInt(quantity),
   };
 };
 
@@ -106,8 +106,25 @@ const recalculateBasketQuantity = (state) => {
   state.basketQuantity = state.basket.reduce((acc, el) => acc + el.quantity, 0);
 };
 
+const loadState = () => {
+  const state = localStorage.getItem("state");
+  if (state === null) {
+    return initialState;
+  }
+  return JSON.parse(state);
+};
+
+const saveState = (state) => {
+  localStorage.setItem("state", JSON.stringify(state));
+};
+
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 export const store = createStore(
   reducer,
+  loadState(),
   composeEnhancers(applyMiddleware(thunk))
 );
+
+store.subscribe(() => {
+  saveState(store.getState());
+});

@@ -536,5 +536,33 @@
         }
       ]
     }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "title": "miss",
+      "firstName": "Bunny",
+      "lastName": "Chui",
+      "email": "bunnychui@gmail.com",
+      "password": "1111111",
+      "mobile": "7719-456-489",
+      "postcode": "NW10 3JP"
+    }
+  ],
+  "orders": [
+    {
+      "customer": {
+        "id": 1,
+        "title": "miss",
+        "firstName": "Bunny",
+        "lastName": "Chui",
+        "email": "bunnychui@gmail.com",
+        "password": "1111111",
+        "mobile": "7719-456-489",
+        "postcode": "NW10 3JP"
+      },
+      "basket": {},
+      "id": 1
+    }
   ]
 }

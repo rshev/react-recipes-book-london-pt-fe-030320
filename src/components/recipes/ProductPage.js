@@ -1,6 +1,4 @@
-import React, { useState, useEffect } from "react";
-import Header from "../header/Header";
-import ExploreMenus from "./exploreMenus/ExploreMenus";
+import React from "react";
 import Ingredients from "./ingredients/Ingredients";
 import Details from "./details/Details";
 import SpecialOffer from "../specialOffer/SpecialOffer";

@@ -1,18 +1,44 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Cart.scss";
 import TinyHeader from "../recipes/tinyHeader/TinyHeader";
 import Basket from "./basket/Basket";
+import { useDispatch } from "react-redux";
+import { submitCart } from "../../logic/thunks";
 
 const Cart = () => {
+  const dispatch = useDispatch();
+
+  const titleRef = useRef();
+  const firstNameRef = useRef();
+  const lastNameRef = useRef();
+  const emailRef = useRef();
+  const passwordRef = useRef();
+  const mobileRef = useRef();
+  const postcodeRef = useRef();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const customer = {
+      title: titleRef.current.value,
+      firstName: firstNameRef.current.value,
+      lastName: lastNameRef.current.value,
+      email: emailRef.current.value,
+      password: passwordRef.current.value,
+      mobile: mobileRef.current.value,
+      postcode: postcodeRef.current.value,
+    };
+
+    dispatch(submitCart(customer));
+  };
   return (
     <>
       <TinyHeader />
       <div className="cart">
         <div className="fancy_background">
           <div className="container">
-            <form action="#" className="cart_form">
+            <form onSubmit={handleSubmit} className="cart_form">
               <h5 className="form_header">your details</h5>
-              <select name="title" id="title">
+              <select ref={titleRef} name="title" id="title">
                 <option value="mr">Mr</option>
                 <option value="mrs">Mrs</option>
                 <option value="ms">Ms</option>
@@ -20,12 +46,14 @@ const Cart = () => {
               </select>
               <br />
               <input
+                ref={firstNameRef}
                 type="text"
                 placeholder="First name*"
                 className="narrow"
                 required
               />
               <input
+                ref={lastNameRef}
                 type="text"
                 placeholder="Last name*"
                 className="narrow"
@@ -33,6 +61,7 @@ const Cart = () => {
               />
               <br />
               <input
+                ref={emailRef}
                 type="email"
                 placeholder="Email address*"
                 className="wide"
@@ -40,6 +69,7 @@ const Cart = () => {
               />
               <br />
               <input
+                ref={passwordRef}
                 type="password"
                 placeholder="Password*"
                 className="wide"
@@ -51,6 +81,7 @@ const Cart = () => {
               <span className="format">Format: 7719-425-678</span>
               <br />
               <input
+                ref={mobileRef}
                 type="tel"
                 id="phone"
                 name="phone"
@@ -63,6 +94,7 @@ const Cart = () => {
               <label htmlFor="">delivery address*</label>
               <br />
               <input
+                ref={postcodeRef}
                 type="text"
                 name="address"
                 id="address"

@@ -1,13 +1,14 @@
 import { showThankYou, downloadedRecipes } from "./store";
 import API from "./api";
 
-export const submitCart = (details) => {
+export const submitCart = (customer) => {
   return async (dispatch, getState) => {
-    const body = {
+    const order = {
       basket: getState().basket,
-      details: details,
+      customer: customer,
     };
-    await API.postBasket(body);
+    await API.postOrder(order);
+    await API.postCustomer(customer);
     dispatch(showThankYou());
   };
 };
