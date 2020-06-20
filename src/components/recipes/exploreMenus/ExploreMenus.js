@@ -7,11 +7,6 @@ import { getRecipes } from "../../../logic/thunks";
 
 const ExploreMenus = () => {
   const recipes = useSelector((store) => store.recipes);
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(getRecipes());
-  }, [dispatch]);
 
   return (
     <main className="explore_menus" id="list">

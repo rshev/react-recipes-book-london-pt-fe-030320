@@ -1,7 +1,7 @@
 import React from "react";
 import "./Ingredients.scss";
 
-const Ingredients = () => {
+const Ingredients = ({ product }) => {
   return (
     <div className="ingredients">
       <div className="ingredients_content">
@@ -11,18 +11,12 @@ const Ingredients = () => {
         </div>
         <div className="separator"></div>
         <div className="grid_container">
-          <span className="quantity">20 gr </span>
-          <span className="ingredient">avocado beef</span>
-          <span className="quantity">20 gr</span>
-          <span className="ingredient">celery avocado</span>
-          <span className="quantity">20 gr</span>
-          <span className="ingredient">apple avocado</span>
-          <span className="quantity">20 gr</span>
-          <span className="ingredient">avocado</span>
-          <span className="quantity">20 gr</span>
-          <span className="ingredient">avocado</span>
-          <span className="quantity">20 gr</span>
-          <span className="ingredient">avocado</span>
+          {product?.ingredients.map((el) => (
+            <>
+              <span className="quantity">{el?.amount} </span>
+              <span className="ingredient">{el?.title}</span>
+            </>
+          ))}
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@
       "servings": 2,
       "calories": 820,
       "description": "plant-based burger with vegan smoked gouda, vegan bacon, spinach, pickles, fresh tomatoes and rosemary salted chips",
-      "url": "./images/burger_1.png",
+      "url": "/images/burger_1.png",
       "ingredients": [
         {
           "title": "Ground vegan beef",
@@ -60,7 +60,7 @@
       "servings": 2,
       "calories": 870,
       "description": "plant-based burger with vegan blue Stilton, vegan bacon, rocket salad, pickles, sundried tomatoes and sweet potato chips",
-      "url": "./images/burger_2.png",
+      "url": "/images/burger_2.png",
       "ingredients": [
         {
           "title": "Ground beef",
@@ -104,7 +104,7 @@
       "servings": 2,
       "calories": 790,
       "description": "plant-based burger with vegan mozzarella, spicy sauce, spinach, fresh cucumber, fresh tomatoes and rosemary salted chips",
-      "url": "./images/burger_3.png",
+      "url": "/images/burger_3.png",
       "ingredients": [
         {
           "title": "Ground Beef",
@@ -144,7 +144,7 @@
       "servings": 2,
       "calories": 790,
       "description": "fresh burger with vegan mozzarella, spicy sauce, spinach, fresh cucumber, fresh tomatoes and rosemary salted chips",
-      "url": "./images/burger_4.png",
+      "url": "/images/burger_4.png",
       "ingredients": [
         {
           "title": "Soya patty",
@@ -188,7 +188,7 @@
       "servings": 2,
       "calories": 790,
       "description": "fresh burger with vegan mozzarella, spicy sauce, spinach, fresh cucumber, fresh tomatoes and rosemary salted chips",
-      "url": "./images/burger_5.png",
+      "url": "/images/burger_5.png",
       "ingredients": [
         {
           "title": "Soya patty",
@@ -232,7 +232,7 @@
       "servings": 2,
       "calories": 790,
       "description": "fresh burger with vegan mozzarella, spicy sauce, spinach, fresh cucumber, fresh tomatoes and rosemary salted chips",
-      "url": "./images/burger_6.png",
+      "url": "/images/burger_6.png",
       "ingredients": [
         {
           "title": "Soya patty",
@@ -276,7 +276,7 @@
       "servings": 2,
       "calories": 740,
       "description": "fresh burger with vegan mozzarella, spicy sauce, spinach, fresh cucumber, fresh tomatoes and rosemary salted chips",
-      "url": "./images/burger_1.png",
+      "url": "/images/burger_1.png",
       "ingredients": [
         {
           "title": "Soya patty",
@@ -320,7 +320,7 @@
       "servings": 2,
       "calories": 890,
       "description": "fresh burger beef with mozzarella, spicy sauce, bla, cucumber, fresh tomatoes and sweet potato chips",
-      "url": "./images/burger_5.png",
+      "url": "/images/burger_5.png",
       "ingredients": [
         {
           "title": "Soya patty",
@@ -368,7 +368,7 @@
       "servings": 2,
       "calories": 690,
       "description": "fresh chicken burger with vegan mozzarella, spicy sauce, spinach, cucumber, fresh tomatoes and salted chips",
-      "url": "./images/burger_5.png",
+      "url": "/images/burger_6.png",
       "ingredients": [
         {
           "title": "Soya patty",
@@ -412,7 +412,7 @@
       "servings": 2,
       "calories": 790,
       "description": "fresh burger with vegan mozzarella, spicy sauce, spinach, fresh cucumber, fresh tomatoes and rosemary salted chips",
-      "url": "./images/burger_5.png",
+      "url": "/images/burger_1.png",
       "ingredients": [
         {
           "title": "Soya patty",
@@ -456,7 +456,7 @@
       "servings": 2,
       "calories": 790,
       "description": "fresh burger with vegan mozzarella, spicy sauce, spinach, fresh cucumber, fresh tomatoes and rosemary salted chips",
-      "url": "./images/burger_5.png",
+      "url": "/images/burger_4.png",
       "ingredients": [
         {
           "title": "Soya patty",
@@ -500,7 +500,7 @@
       "servings": 2,
       "calories": 790,
       "description": "fresh burger with vegan mozzarella, spicy sauce, spinach, fresh cucumber, fresh tomatoes and rosemary salted chips",
-      "url": "./images/burger_5.png",
+      "url": "/images/burger_2.png",
       "ingredients": [
         {
           "title": "Soya patty",
