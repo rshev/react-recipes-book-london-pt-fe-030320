@@ -547,6 +547,16 @@
       "password": "1111111",
       "mobile": "7719-456-489",
       "postcode": "NW10 3JP"
+    },
+    {
+      "title": "mr",
+      "firstName": "duck",
+      "lastName": "kwack",
+      "email": "duck@gmail.com",
+      "password": "1111111",
+      "mobile": "7719-425-678",
+      "postcode": "NW9 5JQ",
+      "id": 2
     }
   ],
   "orders": [
@@ -563,6 +573,73 @@
       },
       "basket": {},
       "id": 1
+    },
+    {
+      "basket": [
+        {
+          "id": 1,
+          "category": "bacon plant",
+          "title": "plant based yummy stuff",
+          "preparationTime": 55,
+          "servings": 2,
+          "calories": 820,
+          "description": "plant-based burger with vegan smoked gouda, vegan bacon, spinach, pickles, fresh tomatoes and rosemary salted chips",
+          "url": "/images/burger_1.png",
+          "ingredients": [
+            {
+              "title": "Ground vegan beef",
+              "amount": "200 gr"
+            },
+            {
+              "title": "Potato buns",
+              "amount": "4"
+            },
+            {
+              "title": "Broccoli",
+              "amount": "70 gr"
+            },
+            {
+              "title": "Garlic",
+              "amount": "1 clove"
+            },
+            {
+              "title": "Onions",
+              "amount": "30 gr"
+            },
+            {
+              "title": "Mayonnaise",
+              "amount": "2 tbsp"
+            },
+            {
+              "title": "Black & White Sesame Seeds",
+              "amount": "10 gr"
+            },
+            {
+              "title": "Hoisin Sauce",
+              "amount": "2 tbsp"
+            },
+            {
+              "title": "Baby Bok Choy",
+              "amount": "20 gr"
+            },
+            {
+              "title": "Tomatoes",
+              "amount": "30 gr"
+            }
+          ],
+          "quantity": 2
+        }
+      ],
+      "customer": {
+        "title": "mr",
+        "firstName": "duck",
+        "lastName": "kwack",
+        "email": "duck@gmail.com",
+        "password": "1111111",
+        "mobile": "7719-425-678",
+        "postcode": "NW9 5JQ"
+      },
+      "id": 2
     }
   ]
 }

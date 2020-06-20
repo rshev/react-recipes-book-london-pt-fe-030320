@@ -89,7 +89,7 @@ const reducer = (state = initialState, action) => {
       return newState3;
 
     case ActionType.ShowThankYou:
-      return { ...state, showThankYou: true, basketQuantity: 0 };
+      return { ...state, showThankYou: true, basketQuantity: 0, basket: [] };
 
     case ActionType.ThankYouWasShown:
       return { ...state, showThankYou: false };
