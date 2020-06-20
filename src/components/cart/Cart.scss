@@ -46,6 +46,13 @@
     font-size: 1rem;
   }
 
+  span {
+    display: inline-block;
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+    color: rgb(116, 114, 114);
+  }
+
   .yellow_button {
     @include yellow_btn;
     margin: 1rem 0;

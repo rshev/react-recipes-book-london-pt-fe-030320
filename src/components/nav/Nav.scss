@@ -19,11 +19,11 @@
   a {
     color: white;
   }
-}
 
-// a:hover {
-//   color: yellow;
-// }
+  li.hover:hover {
+    color: yellow;
+  }
+}
 
 .basket_quantity {
   display: inline-block;

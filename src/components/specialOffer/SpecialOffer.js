@@ -1,5 +1,6 @@
 import React from "react";
 import "./SpecialOffer.scss";
+import { Link } from "react-router-dom";
 
 const SpecialOffer = () => {
   return (
@@ -7,7 +8,9 @@ const SpecialOffer = () => {
       <div className="wrapper">
         <div className="offer_text_btn">
           <h3>Homemade burger</h3>
-          <button className="offer_button">Get started</button>
+          <Link to="/recipes">
+            <button className="offer_button">Get started</button>
+          </Link>
         </div>
       </div>
       <img src="./images/offer.svg" alt="" />

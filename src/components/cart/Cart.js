@@ -49,16 +49,19 @@ const Cart = () => {
               <br />
               <label htmlFor="">contact number*</label>
               <br />
+              <span>Format: 7719-425-678</span>
+              <br />
               <input
                 type="tel"
                 id="phone"
                 name="phone"
-                placeholder="44-7719-465-344"
-                pattern="[0-9]{2}-[0-9]{4}-[0-9]{3}-[0-9]{3}"
+                placeholder="7719-465-344"
+                pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"
                 className="wide"
                 required
               ></input>
               <br />
+
               <label htmlFor="">delivery address*</label>
               <br />
               <input
@@ -82,9 +85,3 @@ const Cart = () => {
   );
 };
 export default Cart;
-
-//    <div className="thank_you">
-// <div className="fancy_background">
-//   <div><img /> <p></p></div>
-// </div>
-// </div>
