@@ -61,7 +61,14 @@ const reducer = (state = initialState, action) => {
   switch (action.type) {
     case ActionType.AddToCart:
       let newState1 = { ...state };
-      newState1.basket.push({ ...action.recipe, quantity: 1 });
+      const existingItem = newState1.basket.find(
+        (el) => el.id === action.recipe.id
+      );
+      if (existingItem) {
+        existingItem.quantity++;
+      } else {
+        newState1.basket.push({ ...action.recipe, quantity: 1 });
+      }
       recalculateBasketQuantity(newState1);
       return newState1;
 
@@ -95,9 +102,7 @@ const reducer = (state = initialState, action) => {
 };
 
 const recalculateBasketQuantity = (state) => {
-  state.basketQuantity = state.basket.reduce(
-    (prev, curr) => prev.quantity + curr.quantity
-  );
+  state.basketQuantity = state.basket.reduce((acc, el) => acc + el.quantity, 0);
 };
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

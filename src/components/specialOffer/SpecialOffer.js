@@ -13,7 +13,7 @@ const SpecialOffer = () => {
           </Link>
         </div>
       </div>
-      <img src="./images/offer.svg" alt="" />
+      <img src="/images/offer.svg" alt="" />
     </section>
   );
 };

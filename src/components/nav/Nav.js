@@ -18,8 +18,11 @@ const Nav = () => {
       <li>gifts</li>
       <li>market</li>
       <li className="basket_wrapper">
-        <img className="basket_icon" src="./images/cart.svg" alt="cart" />
+        <Link to="/cart">
+          <img className="basket_icon" src="/images/cart.svg" alt="cart" />
+        </Link>
       </li>
+
       {basketQuantity > 0 ? (
         <li className="basket_quantity">{basketQuantity}</li>
       ) : null}

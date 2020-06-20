@@ -1,7 +1,7 @@
 import React from "react";
 import "./BasketItem.scss";
 
-const BasketItem = () => {
+const BasketItem = ({ product }) => {
   return (
     <>
       <div className="remove">
@@ -10,22 +10,17 @@ const BasketItem = () => {
         </button>
       </div>
       <div className="basket_item">
-        <img src="./images/burger_1.png" alt="" />
+        <img src={product?.url} alt={product?.title} />
 
         <div className="basket_item_info">
           <div className="serving_info">
-            <p className="servings_quantity">2 servings</p>
-            <p className="items_quantity">2 burgers</p>
+            <p className="servings_quantity">{product?.servings} servings</p>
+            <p className="items_quantity">{product?.servings} burgers</p>
           </div>
-          <p className="basket_item_description">
-            What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing
-            and typesetting industry Lorem Ipsum has been the industry's
-            standard dummy text ever since the 1500s when an unknown printer
-            took a galley
-          </p>
+          <p className="basket_item_description">{product?.description}</p>
           <div className="quantity">
             <input type="number" min="1" max="20" />
-            <span>£15</span>
+            <span className="price">£15</span>
           </div>
         </div>
       </div>

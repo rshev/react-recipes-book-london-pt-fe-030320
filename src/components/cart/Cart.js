@@ -1,7 +1,7 @@
 import React from "react";
 import "./Cart.scss";
-import Basket from "./basket/Basket";
 import TinyHeader from "../recipes/tinyHeader/TinyHeader";
+import Basket from "./basket/Basket";
 
 const Cart = () => {
   return (
@@ -19,7 +19,6 @@ const Cart = () => {
                 <option value="miss">Miss</option>
               </select>
               <br />
-
               <input
                 type="text"
                 placeholder="First name*"
@@ -61,7 +60,6 @@ const Cart = () => {
                 required
               ></input>
               <br />
-
               <label htmlFor="">delivery address*</label>
               <br />
               <input
@@ -73,10 +71,8 @@ const Cart = () => {
                 required
               />
               <br />
-
               <input type="submit" value="submit" className="yellow_button" />
             </form>
-
             <Basket />
           </div>
         </div>

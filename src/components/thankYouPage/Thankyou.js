@@ -10,7 +10,7 @@ const ThankYou = () => {
         <div className="fancy_background">
           <div className="thanks_wrapper">
             <img
-              src="./images/burger_thanks.jpg"
+              src="/images/burger_thanks.jpg"
               className="thanks_img"
               alt="thank you for your order"
             />

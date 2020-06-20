@@ -1,8 +1,10 @@
 import React from "react";
 import "./Basket.scss";
 import BasketItem from "./basketItem/BasketItem";
+import { useSelector } from "react-redux";
 
 const Basket = () => {
+  const recipes = useSelector((store) => store.basket);
   return (
     <div className="basket">
       <div className="basket_header">
@@ -10,9 +12,9 @@ const Basket = () => {
       </div>
       <div className="separator"></div>
       <div className="basket_items_container">
-        <BasketItem />
-        <BasketItem />
-        <BasketItem />
+        {recipes.map((el) => (
+          <BasketItem product={el} />
+        ))}
       </div>
       <div className="separator"></div>
       <div className="delivery_fee basket_flex">
