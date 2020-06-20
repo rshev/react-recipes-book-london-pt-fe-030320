@@ -1,11 +1,23 @@
 import React from "react";
 import "./BasketItem.scss";
+import { useDispatch } from "react-redux";
+import { removeFromCart } from "../../../../logic/store";
 
 const BasketItem = ({ product }) => {
+  const dispatch = useDispatch();
+
+  const handleRemove = () => {
+    dispatch(removeFromCart(product));
+  };
+
   return (
     <>
       <div className="remove">
-        <button className="remove_btn" alt="remove button">
+        <button
+          onClick={handleRemove}
+          className="remove_btn"
+          alt="remove button"
+        >
           remove
         </button>
       </div>
@@ -20,10 +32,12 @@ const BasketItem = ({ product }) => {
           <p className="basket_item_description">{product?.description}</p>
           <div className="quantity">
             <input type="number" min="1" max="20" />
+            <button className="update_btn">update</button>
             <span className="price">£15</span>
           </div>
         </div>
       </div>
+      <div className="separator"></div>
     </>
   );
 };

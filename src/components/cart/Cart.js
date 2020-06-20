@@ -48,7 +48,7 @@ const Cart = () => {
               <br />
               <label htmlFor="">contact number*</label>
               <br />
-              <span>Format: 7719-425-678</span>
+              <span className="format">Format: 7719-425-678</span>
               <br />
               <input
                 type="tel"

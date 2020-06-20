@@ -34,7 +34,8 @@ export const removeFromCart = (recipe) => {
 export const changeQuantity = (recipe, quantity) => {
   return {
     type: ActionType.ChangeQuantity,
-    ...{ recipe, quantity },
+    recipe,
+    quantity,
   };
 };
 
@@ -77,14 +78,14 @@ const reducer = (state = initialState, action) => {
       newState2.basket = newState2.basket.filter(
         (el) => el.id !== action.recipe.id
       );
-      recalculateBasketQuantity(newState1);
+      recalculateBasketQuantity(newState2);
       return newState2;
 
     case ActionType.ChangeQuantity:
       let newState3 = { ...state };
       const item = newState3.basket.find((el) => el.id === action.recipe.id);
       item.quantity = action.quantity;
-      recalculateBasketQuantity(newState1);
+      recalculateBasketQuantity(newState3);
       return newState3;
 
     case ActionType.ShowThankYou:

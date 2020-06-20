@@ -49,11 +49,11 @@
   text-align: right;
 
   .remove_btn {
-    width: 4rem;
-    height: 1.3rem;
-    background-color: $details-secondary-color;
-    color: black;
-    font-weight: 600;
-    border: none;
+    @include small_yellow_btn;
   }
+}
+
+.update_btn {
+  @include small_yellow_btn;
+  margin: 1rem 0;
 }

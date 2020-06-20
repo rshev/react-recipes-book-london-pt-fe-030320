@@ -25,6 +25,15 @@ $details-secondary-color: #ffc700;
   cursor: pointer;
 }
 
+@mixin small_yellow_btn {
+  width: 4rem;
+  height: 1.3rem;
+  background-color: $details-secondary-color;
+  color: black;
+  font-weight: 600;
+  border: none;
+}
+
 @mixin title {
   color: $details-main-color;
   background-color: $details-secondary-color;
