@@ -1,4 +1,4 @@
-const API = "http://localhost:3100";
+const API = "https://react-recipes-book-london-pt-fe-030320.glitch.me/";
 
 const getRecipes = async () => {
   const response = await fetch(`${API}/recipes`);
